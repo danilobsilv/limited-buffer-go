@@ -44,7 +44,11 @@ Each test is run sequentially and logs are printed for better visualization.
    git clone https://github.com/yourusername/limited-buffer-golang.git
    cd limited-buffer-golang
    ```
-2. Execute
+2. Check Go Modules and Dependencies
+  ```bash
+    go mod tidy
+  ```
+3. Execute
   ```bash
    go run main.go
   ```
