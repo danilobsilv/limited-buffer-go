@@ -53,7 +53,7 @@ Each test is run sequentially and logs are printed for better visualization.
    go run main.go
   ```
   
-⚠️ Handling Panics
+##⚠️ Handling Panics
 The system gracefully handles concurrency shutdown by properly closing the buffer only after the last producer finishes. If the buffer is closed too early or accessed incorrectly, it may lead to a panic: send on closed channel. This has been fixed in the current version.
 
 📚 Concepts Covered
